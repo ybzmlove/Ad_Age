@@ -69,7 +69,7 @@ while (puma_num_arr.length < 2){
 for (i = 0; i < puma_num_arr.length; i++){
     $puma_contGroup += `<div style="background-image: url(./img/puma_0${puma_num_arr[i] + 1}.jpg)" onclick="location.herf='./detail.html#puma_${puma_num_arr[i]}'"></div>`;
 }
-$puma_contCover.innerHTML = $adidas_contGroup;
+$puma_contCover.innerHTML = $puma_contGroup;
 
 
 
